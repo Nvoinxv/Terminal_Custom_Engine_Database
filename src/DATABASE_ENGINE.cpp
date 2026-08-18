@@ -1,6 +1,6 @@
 #include "DATABASE_ENGINE.hpp"
 
-void membuat_tabel(const std::string& nama) {
+void Database::membuat_tabel(const std::string& nama) {
     if (tabel.find(nama) != tabel.end()) {
         std::cout << "Tabel sudah ada\n";
         return;
@@ -12,7 +12,7 @@ void membuat_tabel(const std::string& nama) {
     tabel.emplace(nama, Tabel(nama));
 }
 
-void menghapus_tabel(const std::string& nama) {
+void Database::menghapus_tabel(const std::string& nama) {
     if (tabel.find(nama) != tabel.end()) {
         std::cout << "Tabel berhasil menemukan tabel. \n";
         std::cout << "Selanjutnya proses penghapusan. \n";
