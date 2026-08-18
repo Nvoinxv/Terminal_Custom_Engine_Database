@@ -1,6 +1,6 @@
 #include "record.hpp"
 
-void set(const std::string& bidang,
+void Record::set(const std::string& bidang,
 std::string& nilai) {
     bidang[bidang] = nilai;
 }

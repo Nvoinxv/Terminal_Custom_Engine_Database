@@ -1,6 +1,6 @@
 #include "table.hpp"
 
-void memasukkan(const std::string& id, const Record& record) {
+void Tabel::memasukkan(const std::string& id, const Record& record) {
     // Kita mencari id dahulu
     if (records.find(id) != records.end()) {
         std::cout << "ID " << id << " sudah ditemukan.\n";
@@ -15,7 +15,7 @@ void memasukkan(const std::string& id, const Record& record) {
     records.insert(id, Record(id));
 }
 
-void menghapus(const std::string& id) {
+void Tabel::menghapus(const std::string& id) {
     if (records.find(id) != records.end()) {
         std::cout << "ID: " << id << "sudah ditemukan.\n";
         return;
