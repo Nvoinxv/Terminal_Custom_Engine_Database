@@ -1,7 +1,7 @@
-#include "../command.hpp"
-#include "../DATABASE_ENGINE.hpp"
-#include "../record.hpp"
-#include "../table.hpp"
+#include "command.hpp"
+#include "DATABASE_ENGINE.hpp"
+#include "record.hpp"
+#include "table.hpp"
 #include <iostream>
 #include <string>
 
