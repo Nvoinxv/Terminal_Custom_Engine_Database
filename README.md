@@ -45,10 +45,10 @@ Setelah proses kompilasi sukses, file *executable* akan di-generate ke dalam fol
 Jalankan *database engine* melalui terminal:
 ```bash
 # Untuk Linux / macOS:
-./bin/database_engine
+./bin/Terminal_Custom_Database_Engine_debug
 
 # Untuk Windows:
-.\bin\database_engine.exe
+.\bin\Terminal_Custom_Database_Engine_debug.exe
 ```
 
 ## 📖 Panduan Penggunaan (*Usage Guide*)
